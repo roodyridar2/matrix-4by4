@@ -18,7 +18,6 @@ class ButtonCard extends StatefulWidget {
 class _ButtonCardState extends State<ButtonCard> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     setState(() {});
   }

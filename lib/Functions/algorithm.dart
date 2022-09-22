@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../pages/Result/result.dart';
 import '../constants.dart';
-import '../pages/pageMatrixA.dart';
-import '../pages/pageMatrixB.dart';
+import '../pages/page_matrixA.dart';
+import '../pages/page_matrix_b.dart';
 import 'list.dart';
 
 class SolverPushButton extends StatelessWidget {
@@ -122,7 +122,6 @@ class SolverPushButton extends StatelessWidget {
             }
           }
         }
-        ;
       },
       child: Container(
         // width: double.infinity,

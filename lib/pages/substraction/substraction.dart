@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:matrix/constants.dart';
-import '../pageMatrixA.dart';
-import '../pageMatrixB.dart';
+import '../page_matrixA.dart';
+import '../page_matrix_b.dart';
 
 class Substraction extends StatefulWidget {
   const Substraction({super.key});

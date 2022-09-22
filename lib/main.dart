@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:matrix/constants.dart';
 import 'package:matrix/pages/division/division.dart';
 import 'package:matrix/pages/multiply/multiply.dart';
 import 'package:matrix/pages/substraction/substraction.dart';
-import 'pages/addition/Addition.dart';
-import './widget/pageWidget.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import './widget/drawerWidget.dart';
+import 'pages/addition/addition.dart';
+import 'widget/page_widget.dart';
+import 'widget/drawer_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +38,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     setState(() {});
   }
@@ -102,9 +99,8 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      drawer: DrawerWidget(),
+      drawer: const DrawerWidget(),
     );
-    ;
   }
 }
 

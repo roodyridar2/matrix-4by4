@@ -1,6 +1,3 @@
-import 'package:matrix/widget/TextFieldCard.dart';
-
-import '../widget/TextFieldCard.dart';
 import '../widget/gridview.dart';
 
 class ListOfMatrix {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widget/gridview.dart';
-import '../widget/buttonCard.dart';
-import '../widget/TextFieldCard.dart';
+import '../widget/button_card.dart';
+import '../widget/text_field_card.dart';
 import 'package:matrix2d/matrix2d.dart';
 import '../Functions/algorithm.dart';
 

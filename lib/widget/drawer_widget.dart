@@ -1,7 +1,7 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:matrix/constants.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_color/flutter_color.dart';
 
@@ -91,83 +91,8 @@ class _DrawerWidgetState extends State<DrawerWidget> {
   }
 }
 
-// class DrawerWidget extends StatelessWidget {
-//   const DrawerWidget({
-//     Key? key,
-//   }) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Drawer(
-//       child: Container(
-//         color: knavbarColor,
-//         child: ListView(
-//           children: [
-//             DrawerHeader(
-//               child: Center(
-//                 child: Text(
-//                   "Open source",
-//                   style: TextStyle(fontSize: 20, color: ktextColor),
-//                 ),
-//               ),
-//             ),
-//             ListTile(
-//               leading: Icon(
-//                 Icons.home,
-//                 color: ktextColor,
-//               ),
-//               title: Text(
-//                 "Home ",
-//                 style: TextStyle(fontSize: 20, color: ktextColor),
-//               ),
-//               onTap: () {
-//                 Navigator.push(
-//                   context,
-//                   MaterialPageRoute(builder: (context) => HomePage()),
-//                 );
-//               },
-//             ),
-//             ListTile(
-//               leading: Icon(
-//                 Icons.settings,
-//                 color: ktextColor,
-//               ),
-//               title: Text(
-//                 "Settting ",
-//                 style: TextStyle(fontSize: 20, color: ktextColor),
-//               ),
-//               onTap: () {
-//                 // Navigator.push(
-//                 //   context,
-//                 //   MaterialPageRoute(builder: (context) => HomePage()),
-//                 // );
-//                 knavbarColor = Colors.black;
-//                 kbackgroundColor = Colors.black87;
-//               },
-//             ),
-//             ListTile(
-//               leading: Icon(
-//                 FontAwesomeIcons.github,
-//                 color: ktextColor,
-//               ),
-//               title: Text(
-//                 "Github ",
-//                 style: TextStyle(
-//                   fontSize: 20,
-//                   color: ktextColor,
-//                 ),
-//               ),
-//               onTap: _launchURLApp,
-//             )
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 _launchURLApp() async {
-  var url = Uri.parse("https://www.geeksforgeeks.org/");
+  var url = Uri.parse("https://github.com/roodyridar2/matrix-4by4");
   if (await canLaunchUrl(url)) {
     await launchUrl(url);
   } else {

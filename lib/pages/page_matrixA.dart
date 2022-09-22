@@ -1,11 +1,9 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:matrix/constants.dart';
 import 'package:matrix/main.dart';
 import '../widget/gridview.dart';
-import '../widget/buttonCard.dart';
-import '../widget/TextFieldCard.dart';
+import '../widget/button_card.dart';
+import '../widget/text_field_card.dart';
 
 class MatrixA extends StatefulWidget {
   const MatrixA({super.key});
@@ -183,7 +181,7 @@ class _MyPageState extends State<MatrixA> {
 
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => HomePage()),
+                    MaterialPageRoute(builder: (context) => const HomePage()),
                   );
                 },
                 child: Text(

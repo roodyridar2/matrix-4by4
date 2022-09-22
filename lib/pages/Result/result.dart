@@ -30,8 +30,6 @@ class Result extends StatelessWidget {
     } else if (row == 4) {
       height = 175;
     }
-    print(height);
-    print(row);
   }
 
   @override

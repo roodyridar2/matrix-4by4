@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:matrix/constants.dart';
-import 'package:flutter_color/flutter_color.dart';
 
 // ignore: must_be_immutable
 
+// ignore: must_be_immutable
 class TextFieldWidget extends StatelessWidget {
   var controller = TextEditingController();
+
+  TextFieldWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
